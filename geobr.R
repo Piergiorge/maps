@@ -2,6 +2,10 @@ library(ggplot2)
 library(geobr)
 library(ggspatial)
 
+# This code uses the geobr and ggspatial packages
+# to access and plot data from the Brazilian Institute
+# of Geography and Statistics (IBGE). 
+
 #Accessing IBGE data
 rj <- read_state(code_state = "RJ",year = 2020)
 br <- read_state(code_state = "all",year = 2020)
